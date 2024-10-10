@@ -1,0 +1,108 @@
+.body-gap{
+    margin-top: 20px;
+}
+
+
+.blank {
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    border-radius: 100%;
+}
+
+.left-side-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white-color);
+    border-radius: 15px;
+}
+
+
+.name {
+    width: 40%;
+    height: 20px;
+    background: #f3f3f3;
+    margin: auto;
+    border-radius: 30px;
+}
+
+
+.phone-profile {
+    width: 100%;
+    top: 41px;
+    position: absolute;
+    padding: 28px;
+
+}
+
+.profile-image {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-name {
+    margin-top: 20px;
+}
+
+.email {
+    width: 20%;
+    height: 15px;
+    background: #f3f3f3;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+
+.phone-wrapper {
+    width: 55%;
+    position: relative;
+}
+
+.view-phone img {
+    width: 100%;
+}
+
+.button-area {
+    margin-top: 20px;
+}
+
+button.social-btn {
+    width: 100%;
+    padding: 5px 15px;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+        justify-content: space-between;
+        margin-bottom: 10px;
+}
+button.social-btn span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.bg-red{
+    background-color: #d80808;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-blank{
+    background-color: #f3f3f3;
+}
+
+button.social-btn.bg-blank {
+    height: 40px;
+}

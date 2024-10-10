@@ -1,5 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/globals.css';
+
 import "../styles/globals.css";
 import "../styles/App.css";
+import "../styles/style.css";
 import "../styles/Layout.css";
 import Head from "next/head";
 
